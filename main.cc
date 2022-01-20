@@ -24,18 +24,3 @@ int main(){
     
     while (cin.get() != '\n') { }  // see implementation notes #4
 }
-/* Brainstorming section
-class Organism {
-  public:
-    Organism(string locations);
-  private:
-}    
-
-void generate(string locations){
-
-}
-
-int countNeighbors(int cell) {
-  cout << numOfNeighbors;
-}
-*/
