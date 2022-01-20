@@ -15,6 +15,35 @@ static const int boardHeight = 18;
 //two dimensional array that holds integers for now but should hold cell class objects
 int theBoard[boardWidth][boardHeight];
 
+class Board {                   // TODO
+    public:                     //
+        void aliveOrganisms();  //
+        void setGenerations();  // Push these declarations into their own header file
+        Board* getInstance();   // 
+    private:                    //
+        Board();                //
+        Board* theBoard;        //
+};                              // 
+
+void Board::aliveOrganisms() {
+    // TODO
+}
+
+void Board::setGenerations() {
+    // TODO
+}
+
+Board* Board::getInstance() {
+    if (theBoard == NULL) {
+        new Board();
+    }
+    return theBoard;
+}
+
+Board::Board() {
+    theBoard = this;            // TODO: implement board dimensions
+}
+
 
 /**
     Generate board function
