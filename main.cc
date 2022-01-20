@@ -10,9 +10,8 @@ using namespace std;
  */
 
 int main(){
-    int numOfOrganisms;
+    int numOfOrganisms, numOfGenerations;
     string locations;
-    int numOfGenerations;
     
     cout << "How many organisms initially? ";
     cin >> numOfOrganisms;
@@ -24,6 +23,19 @@ int main(){
     cin >> numOfGenerations;
     
     while (cin.get() != '\n') { }  // see implementation notes #4
-    
+}
+/* Brainstorming section
+class Organism {
+  public:
+    Organism(string locations);
+  private:
+}    
+
+void generate(string locations){
+
 }
 
+int countNeighbors(int cell) {
+  cout << numOfNeighbors;
+}
+*/
