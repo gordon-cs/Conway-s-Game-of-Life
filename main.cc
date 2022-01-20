@@ -1,11 +1,12 @@
 #include <iostream>
 #include <stdio.h>
+#include <string>
 
-using namespace std;
+using std::cin;
+using std::cout;
+using std::endl;
 
-using namespace std;
-
-static const char ESC = 27; 
+static const char ESC = 27;
 
 static const bool frameByFrame = true;
 static const int boardWidth = 50;
@@ -24,20 +25,20 @@ int theBoard[boardWidth][boardHeight];
     int newBoard - a two dimensional array of cell objects that contain the new generation's organism positions
  */
 
-void generateBoard(string newBoard){
+void generateBoard(string newBoard) {
     
     //top border
     cout << "+";
-    for(int i = 0; i < boardWidth; i++){
+    for (int i = 0; i < boardWidth; i++) {
         cout << "-";
     }
     cout << "+\n";
     
     // left/right borders and organisms
     
-    for(int row = 0; row < boardHeight; row++){
+    for (int row = 0; row < boardHeight; row++) {
         cout << "|";
-        for(int col = 0; col < boardWidth; col++){
+        for (int col = 0; col < boardWidth; col++) {
             cout << theBoard[row][col];
         }
         cout << "|\n";
@@ -45,7 +46,7 @@ void generateBoard(string newBoard){
     
     //bottom border
     cout << "+";
-    for(int i = 0; i < boardWidth; i++){
+    for (int i = 0; i < boardWidth; i++) {
         cout << "-";
     }
     cout << "+\n";
@@ -54,8 +55,8 @@ void generateBoard(string newBoard){
     //This code block allows the animation to be shown frame by frame
     //pressing the return key shows the next frame
     
-    if(frameByFrame){
-        cout << ESC << "[23;1H" << ESC << "[K"  << "Press RETURN to continue"; 
+    if (frameByFrame) {
+        cout << ESC << "[23;1H" << ESC << "[K" << "Press RETURN to continue";
         while (cin.get() != '\n') { };
     }
     
@@ -82,7 +83,7 @@ int main(){
     
     while (cin.get() != '\n') { }  // see implementation notes #4
 
-    for(int i = 1; i <= numOfGenerations; i++){
+    for (int i = 1; i <= numOfGenerations; i++) {
 
         cout << ESC << "[H" << ESC << "[J" << "Initial:" << endl;
         cout << ESC << "[H" << "Generation: " << i << " of " << numOfGenerations << endl;
