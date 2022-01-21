@@ -3,13 +3,16 @@
 
 using namespace std;
 
-Cell::Cell(state cellState, int coordinates) { }
-
-state getState() {
-    return cellState;
+Cell::Cell(State cellState, int coordinates) {
+    this->_cellState = cellState;
+    this->_coordinates = coordinates;
 }
 
-int getPosition() {
-    return coordinates;
+State Cell::getState() {
+    return _cellState;
+}
+
+int Cell::getPosition() {
+    return _coordinates;
 }
     

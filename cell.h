@@ -5,7 +5,7 @@
 #define CELL_H_
 
 // the condition of a cell, whether it is occupied or vacant
-enum state { NONE, LIVING };
+enum State { NONE, LIVING };
 
 // the cell object class
 class Cell {
@@ -13,21 +13,21 @@ class Cell {
     
         // Constructor
     
-        Cell(state cellState, int coordinates);
+        Cell(State _cellState, int _coordinates);
     
-        // Mutators
+        // Accessors
     
-        state getState();
+        State getState();
     
         int getPosition();
     
         // int countNeigbors();
     
     private:
+        
+        int _coordinates;
     
-        // Accessors
-    
-        int _XYposition;
+        State _cellState;
     
 };
 
