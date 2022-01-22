@@ -13,19 +13,23 @@ class Cell {
     
         // Constructor
     
-        Cell(State _cellState, int _coordinates);
+        Cell(State _cellState, int _position);
     
         // Accessors
     
         State getState();
     
+        void setState(State newState);
+    
         int getPosition();
+    
+        void setPosition(int newPosition);
     
         // int countNeigbors();
     
     private:
         
-        int _coordinates;
+        int _position;
     
         State _cellState;
     
