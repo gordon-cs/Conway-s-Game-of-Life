@@ -13,7 +13,7 @@ class Cell {
     
         // Constructor
     
-        Cell(State _cellState, int _position);
+        Cell(State _cellState = NONE, int _position = 0);
     
         // Accessors
     
