@@ -10,27 +10,16 @@ enum State { NONE, LIVING };
 // the cell object class
 class Cell {
   public:
-    
     // Constructor
-    
-    Cell(State _cellState = NONE, int _position = 0);
-    
+    Cell(State _cellState = NONE, int _position = 0); // TODO: implement position types
     // Accessors
-    
     State getState();
-    
-    void setState(State newState);
-    
-    int getPosition();
-    
-    void setPosition(int newPosition);
-    
+    void setState(State newState);        
+    int getPosition();                                // TODO: implement position types         
+    void setPosition(int newPosition);                // TODO: implement position types
   private:
-        
-    int _position;
-    
+    int _position;                                    // TODO: implement position types
     State _cellState;
-    
 };
 
 #endif // CELL_H_
