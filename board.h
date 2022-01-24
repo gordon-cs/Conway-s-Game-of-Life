@@ -1,5 +1,8 @@
 #include <string>
 
+#ifndef BOARD_H_
+#define BOARD_H_
+
 class Board {     // TODO Push these declarations into a main.h file
     public:  
         Board* getInstance();
@@ -12,7 +15,9 @@ class Board {     // TODO Push these declarations into a main.h file
         static const bool frameByFrame = true;
         static const int boardWidth = 50;
         static const int boardHeight = 18;
-        Organism boardCells[boardHeight][boardWidth];
+        Cell boardCells[boardHeight][boardWidth];
         // I wonder if memory has already been allocated for this array, or if
         // we have to manually allocate it.
 }; 
+
+#endif // BOARD_H_
