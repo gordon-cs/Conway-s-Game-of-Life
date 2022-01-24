@@ -9,29 +9,27 @@ enum State { NONE, LIVING };
 
 // the cell object class
 class Cell {
-    public:
+  public:
     
-        // Constructor
+    // Constructor
     
-        Cell(State _cellState = NONE, int _position = 0);
+    Cell(State _cellState = NONE, int _position = 0);
     
-        // Accessors
+    // Accessors
     
-        State getState();
+    State getState();
     
-        void setState(State newState);
+    void setState(State newState);
     
-        int getPosition();
+    int getPosition();
     
-        void setPosition(int newPosition);
+    void setPosition(int newPosition);
     
-        // int countNeigbors();
-    
-    private:
+  private:
         
-        int _position;
+    int _position;
     
-        State _cellState;
+    State _cellState;
     
 };
 
