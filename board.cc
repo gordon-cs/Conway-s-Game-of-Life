@@ -1,21 +1,26 @@
 #include <string>
-#include "cell.h"
+#include <iostream>
 #include "board.h"
 #include "point.h"
 
-using std::string;
+using namespace std;
 
-static const int boardHeight = 18;
-static const int boardWidth = 50;
+Cell Board::getCellState(int row, int col){
+  return _board[row][col];
+}
 
-Board::Board(Cell board[boardHeight][boardWidth]) {
-  this->board = board;
+void Board::setCellState(int row, int col, Cell state){
+  _board[row][col] = state;
 }
 
 short Board::countNeighbors(Cell cell){
-    return 0;
+  return 0;
 }
 
-string generateNewBoard(string locations){
-    return " ";
+int Board::getHeight(){
+  return height;
+}
+
+int Board::getWidth(){
+  return width;
 }

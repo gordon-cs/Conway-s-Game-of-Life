@@ -1,3 +1,3 @@
-main:	main.cc cell.cc cell.h point.h
-	g++ -o main main.cc cell.cc
+main:	main.cc board.cc board.h point.h
+	g++ -o main main.cc board.cc
 	./main

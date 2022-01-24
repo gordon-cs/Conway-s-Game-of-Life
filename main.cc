@@ -1,7 +1,6 @@
 #include <iostream>
 #include <stdio.h>
 #include "board.h"
-#include "cell.h"
 #include "point.h"
 
 using std::cin;
@@ -12,11 +11,6 @@ using std::string;
 static const char ESC = 27;
 static const bool frameByFrame = true;
 
-static const int boardHeight = 18;
-static const int boardWidth = 50;
-
-Cell theBoard[boardWidth][boardHeight];
-
 /**
     Generate board function
  
@@ -26,19 +20,19 @@ Cell theBoard[boardWidth][boardHeight];
     int newBoard - a two dimensional array of cell objects that contain the new generation's organism positions
  */
 
-void printBoard(board) {
+void printBoard(Board board) {
     //top border
     cout << "+";
-    for (int i = 0; i < boardWidth; i++) {
+    for (int i = 0; i < board.getWidth(); i++) {
         cout << "-";
     }
     cout << "+\n";
     
     // left/right borders and organisms
-    for (int row = 0; row < boardHeight; row++) {
+    for (int row = 0; row < board.getHeight(); row++) {
         cout << "|";
-        for (int col = 0; col < boardWidth; col++) {
-            if(board[col][row].getState() == Cell::LIVING)
+        for (int col = 0; col < board.getWidth(); col++) {
+            if(board.getCellState(row, col) == Cell::LIVING)
                 cout << "*";
             else
                 cout << " ";
@@ -48,7 +42,7 @@ void printBoard(board) {
     
     //bottom border
     cout << "+";
-    for (int i = 0; i < boardWidth; i++) {
+    for (int i = 0; i < board.getWidth(); i++) {
         cout << "-";
     }
     cout << "+\n";
@@ -88,13 +82,15 @@ int main(){
     // Enter key pressed by user advances to next question
     while (cin.get() != '\n') { }
 
+    
+    Board newBoard;
+    
     // For loop to run generateBoard() the number of times the user desires
     for (int i = 1; i <= numOfGenerations; i++) {
 
         cout << ESC << "[H" << ESC << "[J" << "Initial:" << endl;
         cout << ESC << "[H" << "Generation: " << i << " of " << numOfGenerations << endl;
 
-        // prints the board
-        printBoard();
+        printBoard(newBoard);
     }
 }
