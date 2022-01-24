@@ -10,6 +10,7 @@ using std::string;
 enum class Cell { NONE, LIVING };
 
 class Board {
+  
   public:
     
     // cell state methods
@@ -22,10 +23,14 @@ class Board {
     short countNeighbors(Cell cell);
     
   private:
+    
+    // the fixed dimensions of all board objects
     static const int height = 18;
     static const int width = 50;
     
+    // the board object
     Cell _board[height][width];
+    
 }; 
 
 #endif // BOARD_H_
