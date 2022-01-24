@@ -1,5 +1,4 @@
 #include <string>
-#include "point.h"
 
 #ifndef BOARD_H_
 #define BOARD_H_

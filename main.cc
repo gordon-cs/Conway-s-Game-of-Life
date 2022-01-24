@@ -1,7 +1,6 @@
 #include <iostream>
 #include <stdio.h>
 #include "board.h"
-#include "point.h"
 
 using std::cin;
 using std::cout;

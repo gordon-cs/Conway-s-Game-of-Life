@@ -1,7 +1,6 @@
 #include <string>
 #include <iostream>
 #include "board.h"
-#include "point.h"
 
 using namespace std;
 
