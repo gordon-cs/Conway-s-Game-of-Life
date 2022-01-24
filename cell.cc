@@ -1,11 +1,11 @@
 #include <iostream>
 #include "cell.h"
+#include "point.h"
 
 using namespace std;
 
-Cell::Cell(State cellState, int position) {
+Cell::Cell(State cellState) {
   this->_cellState = cellState;
-  this->_position = position;
 }
 
 Cell::State Cell::getState() {
@@ -16,10 +16,12 @@ void Cell::setState(State newState) {
   _cellState = newState;
 }
 
-int Cell::getPosition() {
+/*
+Point Cell::getPosition() {
   return _position;
 }
 
-void Cell::setPosition(int newPosition) {
+void Cell::setPosition(Point newPosition) {
   _position = newPosition;
 }
+*/

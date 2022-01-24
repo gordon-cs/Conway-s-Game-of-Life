@@ -1,5 +1,6 @@
 // DECLARES HEADERS FOR THE CELL CLASS FILE
 // Author: Jake Colbert
+#include "point.h"
 
 #ifndef CELL_H_
 #define CELL_H_
@@ -8,15 +9,18 @@
 class Cell {
   public:
     enum State { NONE, LIVING };
+    
     // Constructor
-    Cell(State _cellState = NONE, int _position = 0);
-    // Accessors
+    Cell(State _cellState = NONE);
+    
+    // Methods
     State getState();
     void setState(State newState);
-    int getPosition();
-    void setPosition(int newPosition);
+    //Point getPosition();
+    //void setPosition(Point newPosition);
+    
   private:
-    int _position;
+    //Point _position;
     State _cellState;
 };
 
