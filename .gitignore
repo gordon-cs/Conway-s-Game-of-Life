@@ -37,3 +37,6 @@
 
 # Mac setup files
 *.DS_Store
+
+# VS Code setup files
+*.vscode
