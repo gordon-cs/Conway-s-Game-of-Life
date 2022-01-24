@@ -1,7 +1,10 @@
 #include <string>
+#include "cell.h"
 
 #ifndef BOARD_H_
 #define BOARD_H_
+
+using std::string;
 
 class Board {     // TODO Push these declarations into a main.h file
     public:  
