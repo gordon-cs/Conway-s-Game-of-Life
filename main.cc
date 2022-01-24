@@ -14,7 +14,7 @@ short Board::aliveOrganisms() { // TODO later: make this function recursive mayb
     short aliveOrganisms = 0;
     for (short i = 0; i < boardWidth; i++) {
         for (short j = 0; j < boardHeight; j++) {
-            aliveOrganisms += boardCells[i][j].getState() == State.LIVING? 1: 0;
+            aliveOrganisms += boardCells[i][j].getState() == State::LIVING? 1: 0;
         }
     }
     return aliveOrganisms;
