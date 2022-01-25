@@ -1,3 +1,3 @@
-main:	main.cc cell.cc cell.h board.h
-	g++ -o main main.cc cell.cc
-	./main
+project1:	main.cc board.cc board.h
+	g++ -o project1 main.cc board.cc
+	./project1
