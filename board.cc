@@ -1,3 +1,10 @@
+// Implements Board and Cell classes
+// Boards are 2-dimensional arrays filled with cell objects that
+// are either dead or alive
+//
+
+// Author: Jake Colbert
+
 #include <string>
 #include <iostream>
 #include "board.h"

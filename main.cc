@@ -1,3 +1,7 @@
+// Conway's game of life simulation
+//
+// Authors: Jake Colbert and Lucas Saturnino De Assis
+
 #include <iostream>
 #include <stdio.h>
 #include "board.h"

@@ -1,3 +1,9 @@
+// Declares Board and Cell classes
+// Boards are 2-dimensional arrays filled with cell objects that
+// are either dead or alive
+//
+// Author: Lucas Saturnino De Assis
+
 #include <string>
 
 #ifndef BOARD_H_
