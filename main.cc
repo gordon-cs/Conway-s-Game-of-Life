@@ -1,5 +1,4 @@
-// Conway's game of life simulation
-//
+// Conway's Game of Life simulation
 // Authors: Jake Colbert and Lucas Saturnino De Assis
 
 #include <iostream>

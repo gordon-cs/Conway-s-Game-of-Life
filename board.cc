@@ -1,8 +1,5 @@
 // Implements Board and Cell classes
-// Boards are 2-dimensional arrays filled with cell objects that
-// are either dead or alive
-//
-
+// Boards are 2-dimensional arrays filled with cell objects
 // Author: Jake Colbert
 
 #include <string>
