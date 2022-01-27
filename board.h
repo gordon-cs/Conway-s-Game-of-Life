@@ -22,8 +22,8 @@ class Board { // TODO: make this entire class static
     unsigned short countNeighbors(Cell cell);
   private:
     // the fixed dimensions of all board objects
-    static const int height = 5;
-    static const int width = 5;
+    static const int height = 18;
+    static const int width = 50;
     
     // the board object
     Cell _board[height][width];

@@ -64,8 +64,7 @@ void printBoard(Board board) {
  */
 
 int main(){
-  unsigned short numOfOrganisms, numOfGenerations;
-  unsigned short row, col; // istream doesn't support unsigned short types
+  unsigned short numOfOrganisms, numOfGenerations, row, col;
   static Board initialBoard;
   
   // Retrieve number of organisms
