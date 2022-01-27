@@ -33,11 +33,12 @@ void printBoard(Board board) {
   for (unsigned short row = 0; row < board.getHeight(); row++) {
     cout << "|";
     for (unsigned short col = 0; col < board.getWidth(); col++) {
-      if(board.getCellState(row, col) == Cell::LIVING)
+      if (board.getCellState(row, col) == Cell::LIVING) {
         cout << '*';
-      else
+      } else {
         cout << ' ';
-      }
+      } 
+    } 
     cout << "|\n";
   }
     
@@ -57,6 +58,24 @@ void printBoard(Board board) {
 }
 
 /**
+  TODO: description
+ */
+Board updatedBoard(Board board) {
+  Board newBoard = new Board();
+  for (unsigned short row = 0; row < board.getHeight(); row++) {
+    for (unsigned short col = 0; col < board.getWidth(); col++) {
+      static Cell state = board.getCellState(row, col);
+      static unsigned short neighborCount = board.countNeighbors(row, col);
+      if (neighborCount == 2 && state == Cell::LIVING) {
+        newBoard.setCellState(row, col, Cell::LIVING);
+      } else if (neighborCount == 3) {
+        newBoard.setCellState(row, col, Cell::LIVING);
+      }
+    } 
+  }
+  return newBoard;
+}
+/**
   Main function
  
   The function that executes the main program
@@ -64,7 +83,7 @@ void printBoard(Board board) {
 
 int main(){
   unsigned short numOfOrganisms, numOfGenerations, row, col;
-  static Board initialBoard;
+  static Board board;
   
   // Retrieve number of organisms
   cout << "How many organisms initially? ";
@@ -76,7 +95,7 @@ int main(){
   // Iterate through all the passed ints and set that location to living
   for(unsigned short i = 0; i < numOfOrganisms; i++){
     cin >> row >> col;
-    initialBoard.setCellState(row - 1, col - 1, Cell::LIVING);
+    board.setCellState(row - 1, col - 1, Cell::LIVING);
   }
   
   // Retrieve the number of generations to cycle through
@@ -88,11 +107,12 @@ int main(){
   
   // The initial board
   cout << ESC << "[H" << ESC << "[J" << "Initial:" << endl;
-  printBoard(initialBoard);
+  printBoard(board);
   
   // For loop to run generateBoard() the number of times the user desires
   for (unsigned short i = 1; i <= numOfGenerations; i++) {
     cout << ESC << "[H" << "Generation: " << i << " of " << numOfGenerations << endl;
-    printBoard(initialBoard);
+    board = updatedBoard(board);
+    printBoard(board);
   }
 }
