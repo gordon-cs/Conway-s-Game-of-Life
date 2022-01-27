@@ -43,14 +43,14 @@ void Board::setCellState(int row, int col, Cell state){
   cell - the cell whos neighbors you wish to count
  */
 
-short Board::countNeighbors(Cell cell){
+unsigned short Board::countNeighbors(Cell cell){
   return 0;
 }
 
-int Board::getHeight(){
+unsigned short Board::getHeight(){
   return height;
 }
 
-int Board::getWidth(){
+unsigned short Board::getWidth(){
   return width;
 }

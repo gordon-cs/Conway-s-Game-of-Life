@@ -11,6 +11,20 @@ using std::endl;
 using std::string;
 
 static const char ESC = 27;
+
+/*
+short Board::aliveOrganisms() {
+    unsigned short aliveOrganisms = 0;
+    for (unsigned short i = 0; i < boardWidth; i++) {
+        for (unsigned short j = 0; j < boardHeight; j++) {
+            aliveOrganisms += boardCells[i][j].getState() == State::LIVING? 1: 0;
+        }
+    }
+    return aliveOrganisms;
+}
+-----------------Good code, just needs to be placed elsewhere-------------------
+*/
+
 static const bool frameByFrame = true;
 
 /**
@@ -24,15 +38,15 @@ static const bool frameByFrame = true;
 void printBoard(Board board) {
   //top border
   cout << '+';
-  for (int i = 0; i < board.getWidth(); i++) {
+  for (unsigned short i = 0; i < board.getWidth(); i++) {
     cout << '-';
   }
   cout << "+\n";
     
   // left/right borders and organisms
-  for (int row = 0; row < board.getHeight(); row++) {
+  for (unsigned short row = 0; row < board.getHeight(); row++) {
     cout << "|";
-    for (int col = 0; col < board.getWidth(); col++) {
+    for (unsigned short col = 0; col < board.getWidth(); col++) {
       if(board.getCellState(row, col) == Cell::LIVING)
         cout << '*';
       else
@@ -43,7 +57,7 @@ void printBoard(Board board) {
     
   //bottom border
   cout << '+';
-  for (int i = 0; i < board.getWidth(); i++) {
+  for (unsigned short i = 0; i < board.getWidth(); i++) {
     cout << '-';
   }
   cout << "+\n";
@@ -63,9 +77,8 @@ void printBoard(Board board) {
  */
 
 int main(){
-  // Variables to accept user input
-  int numOfOrganisms, numOfGenerations;
-  string locations;
+  unsigned short numOfOrganisms, numOfGenerations;
+  char* locations;
     
   // Retrieve number of organisms
   cout << "How many organisms initially? ";
@@ -89,7 +102,7 @@ int main(){
   printBoard(newBoard);
   
   // For loop to run generateBoard() the number of times the user desires
-  for (int i = 1; i <= numOfGenerations; i++) {
+  for (unsigned short i = 1; i <= numOfGenerations; i++) {
     cout << ESC << "[H" << "Generation: " << i << " of " << numOfGenerations << endl;
     printBoard(newBoard);
   }
