@@ -77,7 +77,7 @@ int main(){
   // Iterate through all the passed ints and set that location to living
   for(unsigned short i = 0; i < numOfOrganisms; i++){
     cin >> row >> col;
-    initialBoard.setCellState(row, col, Cell::LIVING);
+    initialBoard.setCellState(row - 1, col - 1, Cell::LIVING);
   }
   
   // Retrieve the number of generations to cycle through
