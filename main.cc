@@ -95,7 +95,7 @@ int main(){
   // Enter key pressed by user advances to next question
   while (cin.get() != '\n') { }
 
-  Board newBoard;
+  static Board newBoard;
   
   // The initial board
   cout << ESC << "[H" << ESC << "[J" << "Initial:" << endl;
