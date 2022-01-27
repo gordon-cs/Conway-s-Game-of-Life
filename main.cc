@@ -11,21 +11,8 @@ using std::endl;
 using std::string;
 
 static const char ESC = 27;
-
-/*
-short Board::aliveOrganisms() {
-    unsigned short aliveOrganisms = 0;
-    for (unsigned short i = 0; i < boardWidth; i++) {
-        for (unsigned short j = 0; j < boardHeight; j++) {
-            aliveOrganisms += boardCells[i][j].getState() == State::LIVING? 1: 0;
-        }
-    }
-    return aliveOrganisms;
-}
------------------Good code, just needs to be placed elsewhere-------------------
-*/
-
 static const bool frameByFrame = true;
+
 
 /**
  Print Board function
@@ -77,16 +64,21 @@ void printBoard(Board board) {
  */
 
 int main(){
-  unsigned short numOfOrganisms, numOfGenerations;
-  char* locations;
-    
+  unsigned short numOfOrganisms, numOfGenerations, row, col;
+  static Board initialBoard;
+  
   // Retrieve number of organisms
   cout << "How many organisms initially? ";
   cin >> numOfOrganisms;
   
   // Retrieve the locations of the organisms
   cout << "Locations? ";
-  cin >> locations;
+  
+  // Iterate through all the passed ints and set that location to living
+  for(unsigned short i = 0; i < numOfOrganisms; i++){
+    cin >> row >> col;
+    initialBoard.setCellState(row - 1, col - 1, Cell::LIVING);
+  }
   
   // Retrieve the number of generations to cycle through
   cout << "Generations? ";
@@ -94,16 +86,14 @@ int main(){
   
   // Enter key pressed by user advances to next question
   while (cin.get() != '\n') { }
-
-  static Board newBoard;
   
   // The initial board
   cout << ESC << "[H" << ESC << "[J" << "Initial:" << endl;
-  printBoard(newBoard);
+  printBoard(initialBoard);
   
   // For loop to run generateBoard() the number of times the user desires
   for (unsigned short i = 1; i <= numOfGenerations; i++) {
     cout << ESC << "[H" << "Generation: " << i << " of " << numOfGenerations << endl;
-    printBoard(newBoard);
+    printBoard(initialBoard);
   }
 }
