@@ -1,23 +1,28 @@
 #include <string>
-
 #ifndef BOARD_H_
 #define BOARD_H_
 
-class Board {     // TODO Push these declarations into a main.h file
-    public:  
-        Board* getInstance();
-        void generateBoard(string newBoard);
-        short aliveOrganisms();
-        void setGenerations(short n);
-    private:
-        Board();
-        Board* theBoard;
-        static const bool frameByFrame = true;
-        static const int boardWidth = 50;
-        static const int boardHeight = 18;
-        Cell boardCells[boardHeight][boardWidth];
-        // I wonder if memory has already been allocated for this array, or if
-        // we have to manually allocate it.
+using std::string;
+
+enum class Cell { NONE, LIVING };
+
+class Board { // TODO: make this entire class static
+  public:
+    // cell state methods
+    Cell getCellState(int row, int col);
+    void setCellState(int row, int col, Cell state);
+    
+    // board methods
+    unsigned short getHeight();
+    unsigned short getWidth();
+    unsigned short countNeighbors(Cell cell);
+  private:
+    // the fixed dimensions of all board objects
+    static const int height = 18;
+    static const int width = 50;
+    
+    // the board object
+    Cell _board[height][width];
 }; 
 
 #endif // BOARD_H_
