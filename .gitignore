@@ -34,6 +34,7 @@
 *.app
 
 # Files Jake doesn't want added
+project1
 
 # Mac setup files
 *.DS_Store
