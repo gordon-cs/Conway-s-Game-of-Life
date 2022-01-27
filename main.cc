@@ -13,7 +13,6 @@ using std::string;
 static const char ESC = 27;
 static const bool frameByFrame = true;
 
-
 /**
  Print Board function
  The function that builds a frame and prints a 2D array passed to it
