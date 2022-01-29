@@ -30,6 +30,7 @@
 
 # Executables
 *.exe
+*.out
 *.app
 
 # Files Jake doesn't want added
