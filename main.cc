@@ -18,7 +18,8 @@ static const bool frameByFrame = true;
  The function that builds a frame and prints a 2D array passed to it
  
  Parameters:
- Board board- a two dimensional array of cell objects
+ Board board- a two dimensioUsually headers guards are for header files (i.e., .h ) not for source files ( i.e., .cpp ).
+nal array of cell objects
 */
 
 void printBoard(Board board) {
@@ -61,7 +62,7 @@ void printBoard(Board board) {
   TODO: description
  */
 Board updatedBoard(Board board) {
-  Board newBoard = new Board();
+  Board newBoard;
   for (unsigned short row = 0; row < board.getHeight(); row++) {
     for (unsigned short col = 0; col < board.getWidth(); col++) {
       static Cell state = board.getCellState(row, col);
@@ -81,7 +82,7 @@ Board updatedBoard(Board board) {
   The function that executes the main program
  */
 
-int main(){
+int main() {
   unsigned short numOfOrganisms, numOfGenerations, row, col;
   static Board board;
   
@@ -93,7 +94,7 @@ int main(){
   cout << "Locations? ";
   
   // Iterate through all the passed ints and set that location to living
-  for(unsigned short i = 0; i < numOfOrganisms; i++){
+  for (unsigned short i = 0; i < numOfOrganisms; i++) {
     cin >> row >> col;
     board.setCellState(row - 1, col - 1, Cell::LIVING);
   }

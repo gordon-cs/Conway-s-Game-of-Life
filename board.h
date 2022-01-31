@@ -28,7 +28,7 @@ class Board { // TODO: make this entire class static
     static const int width = 50;
     
     // the board object
-    static Cell _board[height][width];
+    Cell _board[height][width];
 }; 
 
 #endif // BOARD_H_
