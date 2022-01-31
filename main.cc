@@ -7,6 +7,7 @@
 
 using std::cin;
 using std::cout;
+using std::cerr;
 using std::endl;
 using std::string;
 
@@ -18,8 +19,7 @@ static const bool frameByFrame = true;
  The function that builds a frame and prints a 2D array passed to it
  
  Parameters:
- Board board- a two dimensioUsually headers guards are for header files (i.e., .h ) not for source files ( i.e., .cpp ).
-nal array of cell objects
+ Board board- a two dimensional array of cell objects
 */
 
 void printBoard(Board board) {
@@ -31,9 +31,9 @@ void printBoard(Board board) {
   cout << "+\n";
     
   // left/right borders and organisms
-  for (unsigned short row = 0; row < board.getHeight(); row++) {
+  for (unsigned short row = 1; row < board.getHeight(); row++) {
     cout << "|";
-    for (unsigned short col = 0; col < board.getWidth(); col++) {
+    for (unsigned short col = 1; col < board.getWidth(); col++) {
       if (board.getCellState(row, col) == Cell::LIVING) {
         cout << '*';
       } else {
@@ -62,20 +62,26 @@ void printBoard(Board board) {
   TODO: description
  */
 Board updatedBoard(Board board) {
-  Board newBoard;
-  for (unsigned short row = 0; row < board.getHeight(); row++) {
-    for (unsigned short col = 0; col < board.getWidth(); col++) {
-      static Cell state = board.getCellState(row, col);
-      static unsigned short neighborCount = board.countNeighbors(row, col);
-      if (neighborCount == 2 && state == Cell::LIVING) {
+  static Board newBoard;
+  
+  for(int row = 0; row < board.getHeight(); row++){
+    for(int col = 0; col < board.getWidth(); col++){
+      int count = board.countNeighbors(row, col);
+      //cerr << "Cell "<< row << ", " << col << " has " << count << " neigbors." << endl;
+      Cell state = board.getCellState(row, col);
+      if((count == 2 && state == Cell::LIVING) || (count == 3 && state == Cell::LIVING)){
         newBoard.setCellState(row, col, Cell::LIVING);
-      } else if (neighborCount == 3) {
+      } else if(count == 3 && state == Cell::NONE){
         newBoard.setCellState(row, col, Cell::LIVING);
+      } else {
+        newBoard.setCellState(row, col, Cell::NONE);
       }
-    } 
+    }
   }
+  
   return newBoard;
 }
+
 /**
   Main function
  
@@ -96,7 +102,7 @@ int main() {
   // Iterate through all the passed ints and set that location to living
   for (unsigned short i = 0; i < numOfOrganisms; i++) {
     cin >> row >> col;
-    board.setCellState(row - 1, col - 1, Cell::LIVING);
+    board.setCellState(row, col, Cell::LIVING);
   }
   
   // Retrieve the number of generations to cycle through
@@ -112,7 +118,7 @@ int main() {
   
   // For loop to run generateBoard() the number of times the user desires
   for (unsigned short i = 1; i <= numOfGenerations; i++) {
-    cout << ESC << "[H" << "Generation: " << i << " of " << numOfGenerations << endl;
+    cout << ESC << "[H" << "Generation: " << i << endl;
     board = updatedBoard(board);
     printBoard(board);
   }

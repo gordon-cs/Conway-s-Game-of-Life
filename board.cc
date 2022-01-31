@@ -45,15 +45,18 @@ void Board::setCellState(unsigned short row, unsigned short col, Cell state){
   col - the col of the cell
  */
 
-unsigned short Board::countNeighbors(unsigned short row, unsigned short col){
-  unsigned short count = 0;
-  for (unsigned short rowOffset = -1; rowOffset < 2; rowOffset++) {
-    for (unsigned short colOffset = -1; colOffset < 2; colOffset++) {
-      count += _board[row - rowOffset][col - colOffset] == Cell::LIVING? 1: 0;
+int Board::countNeighbors(int row, int col){
+  int count = 0;
+  for (int rowOffset = -1; rowOffset < 2; rowOffset++) {
+    for (int colOffset = -1; colOffset < 2; colOffset++) {
+      if(_board[row - rowOffset][col - colOffset] == Cell::LIVING){
+        count++;
+      }
     }
   }
-  // If the middle cell is alive, take it out of the neighbor count
-  count -= _board[row][col] == Cell::LIVING? 1: 0;
+  if(_board[row][col] == Cell::LIVING){
+    count--;
+  }
   return count;
 }
 
