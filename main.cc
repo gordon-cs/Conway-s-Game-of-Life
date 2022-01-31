@@ -31,10 +31,10 @@ void printBoard(Board board) {
   cout << "+\n";
     
   // left/right borders and organisms
-  for (unsigned short row = 1; row < board.getHeight(); row++) {
+  for (unsigned short row = 0; row < board.getHeight(); row++) {
     cout << "|";
-    for (unsigned short col = 1; col < board.getWidth(); col++) {
-      if (board.getCellState(row, col) == Cell::LIVING) {
+    for (unsigned short col = 0; col < board.getWidth(); col++) {
+      if (board.getCellState(row + 1, col + 1) == Cell::LIVING) {
         cout << '*';
       } else {
         cout << ' ';
