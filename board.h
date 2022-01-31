@@ -16,7 +16,6 @@ class Board { // TODO: make this entire class static
     Board(){};
     Cell getCellState(unsigned short row, unsigned short col);
     void setCellState(unsigned short row, unsigned short col, Cell state);
-    void addToKillList(unsigned short row, unsigned short col);
     
     // board methods
     unsigned const short getHeight();

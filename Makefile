@@ -9,7 +9,7 @@ all: project1
 project1:	main.cc board.cc board.h
 	g++ -std=c++11 -o project1 main.cc board.cc
 
-# test
+# test the code against an expected output file
 test:
 	./project1 < tests/test1.in > tests/project1.out
 	diff tests/project1.out tests/test1.out

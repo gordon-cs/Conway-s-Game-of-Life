@@ -47,6 +47,7 @@ void Board::setCellState(unsigned short row, unsigned short col, Cell state){
 
 int Board::countNeighbors(int row, int col){
   int count = 0;
+  //count all organisms of a 3x3 section surrounding the center cell
   for (int rowOffset = -1; rowOffset < 2; rowOffset++) {
     for (int colOffset = -1; colOffset < 2; colOffset++) {
       if(_board[row - rowOffset][col - colOffset] == Cell::LIVING){
@@ -54,6 +55,8 @@ int Board::countNeighbors(int row, int col){
       }
     }
   }
+  
+  //if the center cell is alive then subtract it from the count
   if(_board[row][col] == Cell::LIVING){
     count--;
   }
