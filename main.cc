@@ -84,30 +84,48 @@ Board updatedBoard(Board board) {
   The function that executes the main program
  */
 
-int main() {
+int main(int argc, char* argv[]) {
   unsigned short numOfOrganisms, numOfGenerations, row, col;
   static Board board;
   
-  // Retrieve number of organisms
-  cout << "How many organisms initially? ";
-  cin >> numOfOrganisms;
-  
-  // Retrieve the locations of the organisms
-  cout << "Locations? ";
-  
-  // Iterate through all the passed ints and set that location to living
-  for (unsigned short i = 0; i < numOfOrganisms; i++) {
-    cin >> row >> col;
-    board.setCellState(row, col, Cell::LIVING);
+  // If we're specifying locations, organism and generations count at runtime,
+  // do this:
+  if (argc == 1) {
+    // retrieve the number of organisms,
+    cout << "How many organisms initially? ";
+    cin >> numOfOrganisms;
+    
+    // then retrieve the locations of the organisms,
+    cout << "Locations? ";
+    
+    // iterate through all the passed ints and set that location to living,
+    for (unsigned short i = 0; i < numOfOrganisms; i++) {
+      cin >> row >> col;
+      board.setCellState(row, col, Cell::LIVING);
+    }
+    
+    // and finally retrieve the number of generations to cycle through.
+    cout << "Generations? ";
+    cin >> numOfGenerations;
+    
+    // Enter key pressed by user advances to next question
+    while (cin.get() != '\n') { }
+  } else {
+
+    // Otherwise, take all the same arguments at once, and start the initial board.
+    // Takes the organism count and maps every organism into that location, 
+    unsigned const short FIRST_LOCATION_COMMAND_LINE_PARAMETER_INDEX = 2;
+    unsigned short i = FIRST_LOCATION_COMMAND_LINE_PARAMETER_INDEX;
+    while (i < atoi(argv[1]) * 2) {
+      board.setCellState(atoi(argv[i++]),
+                         atoi(argv[i++]),
+                         Cell::LIVING);
+    }
+
+    // then takes the final command line argument for the number of generations
+    numOfGenerations = atoi(argv[i]);
   }
-  
-  // Retrieve the number of generations to cycle through
-  cout << "Generations? ";
-  cin >> numOfGenerations;
-  
-  // Enter key pressed by user advances to next question
-  while (cin.get() != '\n') { }
-  
+
   // The initial board
   cout << ESC << "[H" << ESC << "[J" << "Initial:" << endl;
   printBoard(board);
