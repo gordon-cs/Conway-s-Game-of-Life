@@ -68,17 +68,13 @@ Board updatedBoard(Board board) {
     for(int col = 0; col < board.getWidth(); col++){
       int count = board.countNeighbors(row, col);
       //cerr << "Cell "<< row << ", " << col << " has " << count << " neigbors." << endl;
-      Cell state = board.getCellState(row, col);
-      if((count == 2 && state == Cell::LIVING) || (count == 3 && state == Cell::LIVING)){
-        newBoard.setCellState(row, col, Cell::LIVING);
-      } else if(count == 3 && state == Cell::NONE){
+      if (count == 2 && board.getCellState(row, col) == Cell::LIVING || count == 3) {
         newBoard.setCellState(row, col, Cell::LIVING);
       } else {
         newBoard.setCellState(row, col, Cell::NONE);
       }
     }
   }
-  
   return newBoard;
 }
 
