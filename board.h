@@ -13,17 +13,18 @@ enum class Cell { NONE, LIVING };
 class Board { // TODO: make this entire class static
   public:
     // cell state methods
-    Cell getCellState(int row, int col);
-    void setCellState(int row, int col, Cell state);
+    Board(){};
+    Cell getCellState(unsigned short row, unsigned short col);
+    void setCellState(unsigned short row, unsigned short col, Cell state);
     
     // board methods
-    unsigned short getHeight();
-    unsigned short getWidth();
-    unsigned short countNeighbors(Cell cell);
+    unsigned const short getHeight();
+    unsigned const short getWidth();
+    int countNeighbors(int row, int col);
   private:
     // the fixed dimensions of all board objects
-    static const int height = 18;
-    static const int width = 50;
+    static unsigned const short height = 18;
+    static unsigned const short width = 50;
     
     // the board object
     Cell _board[height][width];

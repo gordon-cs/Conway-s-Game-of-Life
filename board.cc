@@ -17,7 +17,7 @@ using namespace std;
  col - the column in which the desired cell resides
 */
 
-Cell Board::getCellState(int row, int col){
+Cell Board::getCellState(unsigned short row, unsigned short col){
   return _board[row][col];
 }
 
@@ -31,26 +31,42 @@ Cell Board::getCellState(int row, int col){
  state - the condition of a given cell. Either LIVING or NONE
 */
 
-void Board::setCellState(int row, int col, Cell state){
+void Board::setCellState(unsigned short row, unsigned short col, Cell state){
   _board[row][col] = state;
 }
 
 /**
+  Prerequisite: cell is alive (otherwise count is off by one)
   Count neighbors function
   Function that counts which of the cells surrounding a given cell in a 9x9 portion of the board is occupied by organisms and returns that count
  
   Parameters:
-  cell - the cell whos neighbors you wish to count
+  row - the row of the cell
+  col - the col of the cell
  */
 
-unsigned short Board::countNeighbors(Cell cell){
-  return 0;
+int Board::countNeighbors(int row, int col){
+  int count = 0;
+  //count all organisms of a 3x3 section surrounding the center cell
+  for (int rowOffset = -1; rowOffset < 2; rowOffset++) {
+    for (int colOffset = -1; colOffset < 2; colOffset++) {
+      if(_board[row - rowOffset][col - colOffset] == Cell::LIVING){
+        count++;
+      }
+    }
+  }
+  
+  //if the center cell is alive then subtract it from the count
+  if(_board[row][col] == Cell::LIVING){
+    count--;
+  }
+  return count;
 }
 
-unsigned short Board::getHeight(){
+unsigned short const Board::getHeight(){
   return height;
 }
 
-unsigned short Board::getWidth(){
+unsigned short const Board::getWidth(){
   return width;
 }
