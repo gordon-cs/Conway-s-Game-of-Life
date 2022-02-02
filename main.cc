@@ -118,7 +118,7 @@ int main() {
   
   // For loop to run generateBoard() the number of times the user desires
   for (unsigned short i = 1; i <= numOfGenerations; i++) {
-    cout << ESC << "[H" << "Generation: " << i << endl;
+    cout << ESC << "[H[J" << "Generation " << i << ":" << endl;
     board = updatedBoard(board);
     printBoard(board);
   }

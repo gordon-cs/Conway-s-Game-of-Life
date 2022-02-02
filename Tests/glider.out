@@ -1,4 +1,5 @@
-How many organisms initially? Locations? Generations? [H[JInitial:
+*** PROFESSOR'S DEMO VERSION ***
+How many organisms initially? Locations? Generations? [H[JDemo Version - Initial:
 +--------------------------------------------------+
 |                                                  |
 |                         *                        |
@@ -19,7 +20,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 1:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 1:
 +--------------------------------------------------+
 |                                                  |
 |                        *                         |
@@ -40,7 +41,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 2:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 2:
 +--------------------------------------------------+
 |                                                  |
 |                       *                          |
@@ -61,7 +62,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 3:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 3:
 +--------------------------------------------------+
 |                                                  |
 |                       *                          |
@@ -82,7 +83,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 4:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 4:
 +--------------------------------------------------+
 |                                                  |
 |                       *                          |
@@ -103,7 +104,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 5:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 5:
 +--------------------------------------------------+
 |                                                  |
 |                       **                         |
@@ -124,7 +125,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 6:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 6:
 +--------------------------------------------------+
 |                                                  |
 |                        *                         |
@@ -145,7 +146,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 7:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 7:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -166,7 +167,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 8:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 8:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -187,7 +188,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 9:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 9:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -208,7 +209,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 10:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 10:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -229,7 +230,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 11:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 11:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -250,7 +251,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 12:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 12:
 +--------------------------------------------------+
 |                                                  |
 |                        * *                       |
@@ -271,7 +272,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 13:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 13:
 +--------------------------------------------------+
 |                                                  |
 |                         *                        |
@@ -292,7 +293,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 14:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 14:
 +--------------------------------------------------+
 |                                                  |
 |                         * *                      |
@@ -313,7 +314,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 15:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 15:
 +--------------------------------------------------+
 |                                                  |
 |                          *                       |
@@ -334,7 +335,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 16:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 16:
 +--------------------------------------------------+
 |                                                  |
 |                           *                      |
@@ -355,7 +356,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 17:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 17:
 +--------------------------------------------------+
 |                                                  |
 |                            *                     |
@@ -376,7 +377,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 18:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 18:
 +--------------------------------------------------+
 |                                                  |
 |                            *                     |
@@ -397,7 +398,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 19:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 19:
 +--------------------------------------------------+
 |                                                  |
 |                            *                     |
@@ -418,7 +419,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 20:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 20:
 +--------------------------------------------------+
 |                                                  |
 |                           **                     |
@@ -439,7 +440,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 21:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 21:
 +--------------------------------------------------+
 |                                                  |
 |                           *                      |
@@ -460,7 +461,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 22:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 22:
 +--------------------------------------------------+
 |                                                  |
 |                          **                      |
@@ -481,7 +482,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 23:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 23:
 +--------------------------------------------------+
 |                                                  |
 |                          **                      |
@@ -502,7 +503,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 24:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 24:
 +--------------------------------------------------+
 |                                                  |
 |                          **                      |
@@ -523,7 +524,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 25:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 25:
 +--------------------------------------------------+
 |                                                  |
 |                          **                      |
@@ -544,7 +545,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 26:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 26:
 +--------------------------------------------------+
 |                                                  |
 |                          **                      |
@@ -565,7 +566,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 27:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 27:
 +--------------------------------------------------+
 |                                                  |
 |                         * *                      |
@@ -586,7 +587,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 28:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 28:
 +--------------------------------------------------+
 |                                                  |
 |                          *                       |
@@ -607,7 +608,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 29:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 29:
 +--------------------------------------------------+
 |                                                  |
 |                        * *                       |
@@ -628,7 +629,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 30:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 30:
 +--------------------------------------------------+
 |                                                  |
 |                         *                        |
@@ -649,7 +650,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 31:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 31:
 +--------------------------------------------------+
 |                                                  |
 |                        *                         |
@@ -670,7 +671,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 32:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 32:
 +--------------------------------------------------+
 |                                                  |
 |                       *                          |
@@ -691,7 +692,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 33:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 33:
 +--------------------------------------------------+
 |                                                  |
 |                       *                          |
@@ -712,7 +713,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 34:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 34:
 +--------------------------------------------------+
 |                                                  |
 |                       *                          |
@@ -733,7 +734,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 35:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 35:
 +--------------------------------------------------+
 |                                                  |
 |                       **                         |
@@ -754,7 +755,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 36:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 36:
 +--------------------------------------------------+
 |                                                  |
 |                        *                         |
@@ -775,7 +776,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 37:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 37:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -796,7 +797,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 38:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 38:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -817,7 +818,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 39:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 39:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -838,7 +839,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 40:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 40:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -859,7 +860,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 41:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 41:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -880,7 +881,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 42:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 42:
 +--------------------------------------------------+
 |                                                  |
 |                        * *                       |
@@ -901,7 +902,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 43:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 43:
 +--------------------------------------------------+
 |                                                  |
 |                         *                        |
@@ -922,7 +923,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 44:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 44:
 +--------------------------------------------------+
 |                                                  |
 |                         * *                      |
@@ -943,7 +944,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                            *                     |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 45:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 45:
 +--------------------------------------------------+
 |                                                  |
 |                          *                       |
@@ -964,7 +965,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                            **                    |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 46:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 46:
 +--------------------------------------------------+
 |                                                  |
 |                           *                      |
@@ -985,7 +986,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                            **                    |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 47:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 47:
 +--------------------------------------------------+
 |                                                  |
 |                            *                     |
@@ -1006,7 +1007,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                            ***                   |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 48:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 48:
 +--------------------------------------------------+
 |                                                  |
 |                            *                     |
@@ -1025,9 +1026,9 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                            * *                   |
 |                             **                   |
-|                                                  |
+|                             *                    |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 49:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 49:
 +--------------------------------------------------+
 |                                                  |
 |                            *                     |
@@ -1045,10 +1046,10 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 |                              *                   |
+|                            * *                   |
 |                             **                   |
-|                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JGeneration 50:
+[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 50:
 +--------------------------------------------------+
 |                                                  |
 |                           **                     |
@@ -1065,8 +1066,7 @@ How many organisms initially? Locations? Generations? [H[JInitial:
 |                                                  |
 |                                                  |
 |                                                  |
+|                             *                    |
+|                              **                  |
 |                             **                   |
-|                             **                   |
-|                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue

@@ -34,6 +34,7 @@
 
 # Files Jake doesn't want added
 project1
+tests/project1.out
 
 # Mac setup files
 *.DS_Store
