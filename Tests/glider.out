@@ -1,5 +1,4 @@
-*** PROFESSOR'S DEMO VERSION ***
-How many organisms initially? Locations? Generations? [H[JDemo Version - Initial:
+How many organisms initially? Locations? Generations? [H[JInitial:
 +--------------------------------------------------+
 |                                                  |
 |                         *                        |
@@ -20,7 +19,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 1:
+[23;1H[KPress RETURN to continue[H[JGeneration 1:
 +--------------------------------------------------+
 |                                                  |
 |                        *                         |
@@ -41,7 +40,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 2:
+[23;1H[KPress RETURN to continue[H[JGeneration 2:
 +--------------------------------------------------+
 |                                                  |
 |                       *                          |
@@ -62,7 +61,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 3:
+[23;1H[KPress RETURN to continue[H[JGeneration 3:
 +--------------------------------------------------+
 |                                                  |
 |                       *                          |
@@ -83,7 +82,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 4:
+[23;1H[KPress RETURN to continue[H[JGeneration 4:
 +--------------------------------------------------+
 |                                                  |
 |                       *                          |
@@ -104,7 +103,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 5:
+[23;1H[KPress RETURN to continue[H[JGeneration 5:
 +--------------------------------------------------+
 |                                                  |
 |                       **                         |
@@ -125,7 +124,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 6:
+[23;1H[KPress RETURN to continue[H[JGeneration 6:
 +--------------------------------------------------+
 |                                                  |
 |                        *                         |
@@ -146,7 +145,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 7:
+[23;1H[KPress RETURN to continue[H[JGeneration 7:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -167,7 +166,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 8:
+[23;1H[KPress RETURN to continue[H[JGeneration 8:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -188,7 +187,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 9:
+[23;1H[KPress RETURN to continue[H[JGeneration 9:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -209,7 +208,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 10:
+[23;1H[KPress RETURN to continue[H[JGeneration 10:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -230,7 +229,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 11:
+[23;1H[KPress RETURN to continue[H[JGeneration 11:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -251,7 +250,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 12:
+[23;1H[KPress RETURN to continue[H[JGeneration 12:
 +--------------------------------------------------+
 |                                                  |
 |                        * *                       |
@@ -272,7 +271,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 13:
+[23;1H[KPress RETURN to continue[H[JGeneration 13:
 +--------------------------------------------------+
 |                                                  |
 |                         *                        |
@@ -293,7 +292,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 14:
+[23;1H[KPress RETURN to continue[H[JGeneration 14:
 +--------------------------------------------------+
 |                                                  |
 |                         * *                      |
@@ -314,7 +313,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 15:
+[23;1H[KPress RETURN to continue[H[JGeneration 15:
 +--------------------------------------------------+
 |                                                  |
 |                          *                       |
@@ -335,7 +334,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 16:
+[23;1H[KPress RETURN to continue[H[JGeneration 16:
 +--------------------------------------------------+
 |                                                  |
 |                           *                      |
@@ -356,7 +355,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 17:
+[23;1H[KPress RETURN to continue[H[JGeneration 17:
 +--------------------------------------------------+
 |                                                  |
 |                            *                     |
@@ -377,7 +376,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 18:
+[23;1H[KPress RETURN to continue[H[JGeneration 18:
 +--------------------------------------------------+
 |                                                  |
 |                            *                     |
@@ -398,7 +397,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 19:
+[23;1H[KPress RETURN to continue[H[JGeneration 19:
 +--------------------------------------------------+
 |                                                  |
 |                            *                     |
@@ -419,7 +418,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 20:
+[23;1H[KPress RETURN to continue[H[JGeneration 20:
 +--------------------------------------------------+
 |                                                  |
 |                           **                     |
@@ -440,7 +439,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 21:
+[23;1H[KPress RETURN to continue[H[JGeneration 21:
 +--------------------------------------------------+
 |                                                  |
 |                           *                      |
@@ -461,7 +460,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 22:
+[23;1H[KPress RETURN to continue[H[JGeneration 22:
 +--------------------------------------------------+
 |                                                  |
 |                          **                      |
@@ -482,7 +481,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 23:
+[23;1H[KPress RETURN to continue[H[JGeneration 23:
 +--------------------------------------------------+
 |                                                  |
 |                          **                      |
@@ -503,7 +502,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 24:
+[23;1H[KPress RETURN to continue[H[JGeneration 24:
 +--------------------------------------------------+
 |                                                  |
 |                          **                      |
@@ -524,7 +523,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 25:
+[23;1H[KPress RETURN to continue[H[JGeneration 25:
 +--------------------------------------------------+
 |                                                  |
 |                          **                      |
@@ -545,7 +544,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 26:
+[23;1H[KPress RETURN to continue[H[JGeneration 26:
 +--------------------------------------------------+
 |                                                  |
 |                          **                      |
@@ -566,7 +565,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 27:
+[23;1H[KPress RETURN to continue[H[JGeneration 27:
 +--------------------------------------------------+
 |                                                  |
 |                         * *                      |
@@ -587,7 +586,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 28:
+[23;1H[KPress RETURN to continue[H[JGeneration 28:
 +--------------------------------------------------+
 |                                                  |
 |                          *                       |
@@ -608,7 +607,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 29:
+[23;1H[KPress RETURN to continue[H[JGeneration 29:
 +--------------------------------------------------+
 |                                                  |
 |                        * *                       |
@@ -629,7 +628,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 30:
+[23;1H[KPress RETURN to continue[H[JGeneration 30:
 +--------------------------------------------------+
 |                                                  |
 |                         *                        |
@@ -650,7 +649,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 31:
+[23;1H[KPress RETURN to continue[H[JGeneration 31:
 +--------------------------------------------------+
 |                                                  |
 |                        *                         |
@@ -671,7 +670,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 32:
+[23;1H[KPress RETURN to continue[H[JGeneration 32:
 +--------------------------------------------------+
 |                                                  |
 |                       *                          |
@@ -692,7 +691,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 33:
+[23;1H[KPress RETURN to continue[H[JGeneration 33:
 +--------------------------------------------------+
 |                                                  |
 |                       *                          |
@@ -713,7 +712,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 34:
+[23;1H[KPress RETURN to continue[H[JGeneration 34:
 +--------------------------------------------------+
 |                                                  |
 |                       *                          |
@@ -734,7 +733,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 35:
+[23;1H[KPress RETURN to continue[H[JGeneration 35:
 +--------------------------------------------------+
 |                                                  |
 |                       **                         |
@@ -755,7 +754,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 36:
+[23;1H[KPress RETURN to continue[H[JGeneration 36:
 +--------------------------------------------------+
 |                                                  |
 |                        *                         |
@@ -776,7 +775,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 37:
+[23;1H[KPress RETURN to continue[H[JGeneration 37:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -797,7 +796,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 38:
+[23;1H[KPress RETURN to continue[H[JGeneration 38:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -818,7 +817,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 39:
+[23;1H[KPress RETURN to continue[H[JGeneration 39:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -839,7 +838,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 40:
+[23;1H[KPress RETURN to continue[H[JGeneration 40:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -860,7 +859,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 41:
+[23;1H[KPress RETURN to continue[H[JGeneration 41:
 +--------------------------------------------------+
 |                                                  |
 |                        **                        |
@@ -881,7 +880,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 42:
+[23;1H[KPress RETURN to continue[H[JGeneration 42:
 +--------------------------------------------------+
 |                                                  |
 |                        * *                       |
@@ -902,7 +901,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 43:
+[23;1H[KPress RETURN to continue[H[JGeneration 43:
 +--------------------------------------------------+
 |                                                  |
 |                         *                        |
@@ -923,7 +922,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 44:
+[23;1H[KPress RETURN to continue[H[JGeneration 44:
 +--------------------------------------------------+
 |                                                  |
 |                         * *                      |
@@ -944,7 +943,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                            *                     |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 45:
+[23;1H[KPress RETURN to continue[H[JGeneration 45:
 +--------------------------------------------------+
 |                                                  |
 |                          *                       |
@@ -965,7 +964,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                            **                    |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 46:
+[23;1H[KPress RETURN to continue[H[JGeneration 46:
 +--------------------------------------------------+
 |                                                  |
 |                           *                      |
@@ -986,7 +985,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                            **                    |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 47:
+[23;1H[KPress RETURN to continue[H[JGeneration 47:
 +--------------------------------------------------+
 |                                                  |
 |                            *                     |
@@ -1007,7 +1006,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                            ***                   |
 |                                                  |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 48:
+[23;1H[KPress RETURN to continue[H[JGeneration 48:
 +--------------------------------------------------+
 |                                                  |
 |                            *                     |
@@ -1028,7 +1027,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                             **                   |
 |                             *                    |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 49:
+[23;1H[KPress RETURN to continue[H[JGeneration 49:
 +--------------------------------------------------+
 |                                                  |
 |                            *                     |
@@ -1049,7 +1048,7 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                            * *                   |
 |                             **                   |
 +--------------------------------------------------+
-[23;1H[KPress RETURN to continue[H[JDemo Version - Generation 50:
+[23;1H[KPress RETURN to continue[H[JGeneration 50:
 +--------------------------------------------------+
 |                                                  |
 |                           **                     |
@@ -1069,4 +1068,1054 @@ How many organisms initially? Locations? Generations? [H[JDemo Version - Initi
 |                             *                    |
 |                              **                  |
 |                             **                   |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 51:
++--------------------------------------------------+
+|                                                  |
+|                           *                      |
+|                          **                      |
+|          **             **    **  **             |
+|          ***           ***    **  **             |
+| **         ** *         **    **                 |
+| *     *    *  *          **                      |
+|      *     ** *           *                      |
+|  *   *   ***          *                          |
+|    *     **         * *                          |
+|                      **                          |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                              *                   |
+|                               *                  |
+|                             ***                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 52:
++--------------------------------------------------+
+|                                                  |
+|                          **                      |
+|                         * *                      |
+|          * *           *      **  **             |
+|          *  *          *  *  *  * **             |
+| **          **         *      **                 |
+| **        *   **        * *                      |
+|      **     **           **                      |
+|     *    *  *        *                           |
+|          * *          **                         |
+|                      **                          |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                             * *                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 53:
++--------------------------------------------------+
+|                                                  |
+|                          **                      |
+|                         * *                      |
+|           *            ***    ** ***             |
+|           ****        ***    *  ****             |
+| **         ****        ***    **                 |
+| **         *  *         * *                      |
+|      *     ****          **                      |
+|      *    ****        *                          |
+|           *            *                         |
+|                      ***                         |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                               *                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 54:
++--------------------------------------------------+
+|                                                  |
+|                          **                      |
+|                        *  *       *              |
+|           * *         *       **   *             |
+|           *   *       *      *     *             |
+| **            *       *       *****              |
+| **        *    *       *  *                      |
+|               *          **                      |
+|           *   *                                  |
+|           * *        * *                         |
+|                       **                         |
+|                       *                          |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 55:
++--------------------------------------------------+
+|                                                  |
+|                          **                      |
+|                          **                      |
+|            *          **      *   **             |
+|            * *       ***     *   * *             |
+| **            **      **      *****              |
+| **            **         **    ***               |
+|               **         **                      |
+|            * *                                   |
+|            *           *                         |
+|                      * *                         |
+|                       **                         |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 56:
++--------------------------------------------------+
+|                                                  |
+|                          **                      |
+|                         ***                      |
+|             *        * **         **             |
+|             * *      *  *    *     *             |
+| **           * *     * **     *                  |
+| **           *  *       ***   *   *              |
+|              * *         **     *                |
+|             * *                                  |
+|             *         *                          |
+|                        **                        |
+|                       **                         |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 57:
++--------------------------------------------------+
+|                                                  |
+|                         * *                      |
+|                        *  *                      |
+|              *        **          **             |
+|             * *     **   *        **             |
+| **          ** *      **     **                  |
+| **          ** **      *  *    *                 |
+|             ** *        * *                      |
+|             * *                                  |
+|              *         *                         |
+|                         *                        |
+|                       ***                        |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 58:
++--------------------------------------------------+
+|                                                  |
+|                          *                       |
+|                       ****                       |
+|              *       ****         **             |
+|             * *      *  *         **             |
+| **         *   **    ****     *                  |
+| **         *   **     ****    *                  |
+|            *   **        *                       |
+|             * *                                  |
+|              *                                   |
+|                       * *                        |
+|                        **                        |
+|                        *                         |
+|                                                  |
+|                                                  |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 59:
++--------------------------------------------------+
+|                                                  |
+|                        * *                       |
+|                      *   *                       |
+|              *       *            **             |
+|             ****    *    *        **             |
+| **         ** * *    *                           |
+| **        *** *  *   *   *                       |
+|            ** * *      * *                       |
+|             ****                                 |
+|              *                                   |
+|                         *                        |
+|                       * *                        |
+|                        **                        |
+|                                                  |
+|                                                  |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 60:
++--------------------------------------------------+
+|                                                  |
+|                         *                        |
+|                       * *                        |
+|             **      **            **             |
+|            *   *    **            **             |
+| **        *     *   **                           |
+| **        *   * **    * *                        |
+|           *     *       *                        |
+|            *   *                                 |
+|             **                                   |
+|                        *                         |
+|                         **                       |
+|                        **                        |
+|                                                  |
+|                                                  |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 61:
++--------------------------------------------------+
+|                                                  |
+|                        *                         |
+|                      * *                         |
+|             *       * *           **             |
+|            **      *  *           **             |
+| **        **    **  * *                          |
+| **       ***    **   * *                         |
+|           **    **     *                         |
+|            **                                    |
+|             *                                    |
+|                         *                        |
+|                          *                       |
+|                        ***                       |
+|                                                  |
+|                                                  |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 62:
++--------------------------------------------------+
+|                                                  |
+|                       *                          |
+|                      * *                         |
+|            **       * **          **             |
+|           * *      ** **          **             |
+| **       *      *** * **                         |
+| **       *  *  *  *  * *                         |
+|          *      **    *                          |
+|           * *                                    |
+|            **                                    |
+|                                                  |
+|                        * *                       |
+|                         **                       |
+|                         *                        |
+|                                                  |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 63:
++--------------------------------------------------+
+|                                                  |
+|                       *                          |
+|                      * *                         |
+|            **      **   *         **             |
+|           * *    ** *   *         **             |
+| **       ***    *** *   *                        |
+| **      ***    *  ** * *                         |
+|          ***    **    *                          |
+|           * *                                    |
+|            **                                    |
+|                                                  |
+|                          *                       |
+|                        * *                       |
+|                         **                       |
+|                                                  |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 64:
++--------------------------------------------------+
+|                                                  |
+|                       *                          |
+|                     ****                         |
+|            **     **** **         **             |
+|          *  *   *   ** ***        **             |
+| **      *       *   ** **                        |
+| **      *      *   *****                         |
+|         *       ***   *                          |
+|          *  *                                    |
+|            **                                    |
+|                                                  |
+|                         *                        |
+|                          **                      |
+|                         **                       |
+|                                                  |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 65:
++--------------------------------------------------+
+|                                                  |
+|                       **                         |
+|                         *                        |
+|            **            *        **             |
+|            **    *       *        **             |
+| **      **     **        *                       |
+| **     ***     *  **    *                        |
+|         **      ***** **                         |
+|            **    *                               |
+|            **                                    |
+|                                                  |
+|                          *                       |
+|                           *                      |
+|                         ***                      |
+|                                                  |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 66:
++--------------------------------------------------+
+|                                                  |
+|                        *                         |
+|                        **                        |
+|            **           **        **             |
+|           ***   *       ***       **             |
+| **     * **    ****     **                       |
+| **     *  *    *    *  **                        |
+|        * **     *   *  *                         |
+|           ***   ** *                             |
+|            **                                    |
+|                                                  |
+|                                                  |
+|                         * *                      |
+|                          **                      |
+|                          *                       |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 67:
++--------------------------------------------------+
+|                                                  |
+|                        **                        |
+|                        * *                       |
+|           * *             *       **             |
+|          *  *  **      *  *       **             |
+| **      **     * *        *                      |
+| **    **   *   *   *   * *                       |
+|         **     *** **  **                        |
+|          *  *   **                               |
+|           * *                                    |
+|                                                  |
+|                                                  |
+|                           *                      |
+|                         * *                      |
+|                          **                      |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 68:
++--------------------------------------------------+
+|                                                  |
+|                        **                        |
+|                        * *                       |
+|            *            ***       **             |
+|         ****   **        ***      **             |
+| **     ****   **        ***                      |
+| **     *  *   ** * **  * *                       |
+|        ****    * * **  **                        |
+|         ****   * **                              |
+|            *                                     |
+|                                                  |
+|                                                  |
+|                          *                       |
+|                           **                     |
+|                          **                      |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 69:
++--------------------------------------------------+
+|                                                  |
+|                        **                        |
+|                        *  *                      |
+|          * *               *      **             |
+|        *   *  ***          *      **             |
+| **     *                   *                     |
+| **    *    *       **  *  *                      |
+|        *       * *  *  **                        |
+|        *   *     ***                             |
+|          * *                                     |
+|                                                  |
+|                                                  |
+|                           *                      |
+|                            *                     |
+|                          ***                     |
+|                                                  |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 70:
++--------------------------------------------------+
+|                                                  |
+|                        **                        |
+|                        **                        |
+|           *    *          **      **             |
+|         * *    *          ***     **             |
+| **    **       *          **                     |
+| **    **           **  **                        |
+|       **        **  *  **                        |
+|         * *     ****                             |
+|           *       *                              |
+|                                                  |
+|                                                  |
+|                                                  |
+|                          * *                     |
+|                           **                     |
+|                           *                      |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 71:
++--------------------------------------------------+
+|                                                  |
+|                        **                        |
+|                        ***                       |
+|          *               ** *     **             |
+|        * *    ***        *  *     **             |
+| **    * *                ** *                    |
+| **   *  *       *  **  ***                       |
+|       * *       *   *  **                        |
+|        * *      *  *                             |
+|          *        **                             |
+|                                                  |
+|                                                  |
+|                                                  |
+|                            *                     |
+|                          * *                     |
+|                           **                     |
+|                              **                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 72:
++--------------------------------------------------+
+|                                                  |
+|                        * *                       |
+|                        *  *                      |
+|         *      *          **      **             |
+|        * *     *        *   **    **             |
+| **    * **      *         **                     |
+| **   ** **         **  *  *                      |
+|       * **     ***  *  * *                       |
+|        * *       ****                            |
+|         *         **                             |
+|                                                  |
+|                                                  |
+|                                                  |
+|                           *                      |
+|                            **                    |
+|                           ***                    |
+|                             ***                  |
+|                              **                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 73:
++--------------------------------------------------+
+|                                                  |
+|                         *                        |
+|                         ****                     |
+|         *                ****     **             |
+|        * *     **        *  *     **             |
+| **   **   *              ****                    |
+| **   **   *    * * **   ****                     |
+|      **   *     **   *  *                        |
+|        * *          *                            |
+|         *        *  *                            |
+|                                                  |
+|                                                  |
+|                                                  |
+|                            *                     |
+|                             *                    |
+|                           *                      |
+|                               *                  |
+|                             * *                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 74:
++--------------------------------------------------+
+|                                                  |
+|                         * *                      |
+|                         *   *                    |
+|         *                   *     **             |
+|       ****              *    *    **             |
+| **   * * **    *            *                    |
+| **  *  * ***     ** *   *   *                    |
+|      * * **     **** *  * *                      |
+|       ****      **  **                           |
+|         *                                        |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                            *                     |
+|                                                  |
+|                              *                   |
+|                              *                   |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 75:
++--------------------------------------------------+
+|                                                  |
+|                          *                       |
+|                          * *                     |
+|         **                  **    **             |
+|       *   *                 **    **             |
+| **   *     *                **                   |
+| **  ** *   *        *    * *                     |
+|      *     *         *   *                       |
+|       *   *     *  ***                           |
+|         **                                       |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 76:
++--------------------------------------------------+
+|                                                  |
+|                           *                      |
+|                           * *                    |
+|          *                 * *    **             |
+|          **                *  *   **             |
+| **  **    **               * *                   |
+| **  **    ***             * *                    |
+|     **    **       * *    *                      |
+|          **         **                           |
+|          *          *                            |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 77:
++--------------------------------------------------+
+|                                                  |
+|                            *                     |
+|                           * *                    |
+|          **               ** *    **             |
+|          * *              ** **   **             |
+| **  **      *             ** *                   |
+| ** *  *  *  *             * *                    |
+|     **      *        *     *                     |
+|          * *       * *                           |
+|          **         **                           |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 78:
++--------------------------------------------------+
+|                                                  |
+|                            *                     |
+|                           * *                    |
+|          **              *   **   **             |
+|          * *             *   **   **             |
+| *** **    ***            *   **                  |
+| ****  *    ***            * *                    |
+|     **    ***       *      *                     |
+|          * *         **                          |
+|          **         **                           |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 79:
++--------------------------------------------------+
+|                                                  |
+|                            *                     |
+|                           ****                   |
+|          **              ** * *   **             |
+|  *       *  *           *** *  *  **             |
+| *   **       *           ** * *                  |
+| *     *      *            ****                   |
+|  *****       *       *     *                     |
+|          *  *         *                          |
+|          **         ***                          |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 80:
++--------------------------------------------------+
+|                                                  |
+|                           **                     |
+|                          *   *                   |
+|          **             *     *   **             |
+|          **             *   * **  **             |
+| **   *      **          *     *                  |
+| * *   *     ***          *   *                   |
+|  *****      **            **                     |
+|   ***    **         * *                          |
+|          **          **                          |
+|                      *                           |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 81:
++--------------------------------------------------+
+|                                                  |
+|                           *                      |
+|                          **                      |
+|          **             **    **  **             |
+|          ***           ***    **  **             |
+| **         ** *         **    **                 |
+| *     *    *  *          **                      |
+|      *     ** *           *                      |
+|  *   *   ***          *                          |
+|    *     **         * *                          |
+|                      **                          |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 82:
++--------------------------------------------------+
+|                                                  |
+|                          **                      |
+|                         * *                      |
+|          * *           *      **  **             |
+|          *  *          *  *  *  * **             |
+| **          **         *      **                 |
+| **        *   **        * *                      |
+|      **     **           **                      |
+|     *    *  *        *                           |
+|          * *          **                         |
+|                      **                          |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 83:
++--------------------------------------------------+
+|                                                  |
+|                          **                      |
+|                         * *                      |
+|           *            ***    ** ***             |
+|           ****        ***    *  ****             |
+| **         ****        ***    **                 |
+| **         *  *         * *                      |
+|      *     ****          **                      |
+|      *    ****        *                          |
+|           *            *                         |
+|                      ***                         |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 84:
++--------------------------------------------------+
+|                                                  |
+|                          **                      |
+|                        *  *       *              |
+|           * *         *       **   *             |
+|           *   *       *      *     *             |
+| **            *       *       *****              |
+| **        *    *       *  *                      |
+|               *          **                      |
+|           *   *                                  |
+|           * *        * *                         |
+|                       **                         |
+|                       *                          |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 85:
++--------------------------------------------------+
+|                                                  |
+|                          **                      |
+|                          **                      |
+|            *          **      *   **             |
+|            * *       ***     *   * *             |
+| **            **      **      *****              |
+| **            **         **    ***               |
+|               **         **                      |
+|            * *                                   |
+|            *           *                         |
+|                      * *                         |
+|                       **                         |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 86:
++--------------------------------------------------+
+|                                                  |
+|                          **                      |
+|                         ***                      |
+|             *        * **         **             |
+|             * *      *  *    *     *             |
+| **           * *     * **     *                  |
+| **           *  *       ***   *   *              |
+|              * *         **     *                |
+|             * *                                  |
+|             *         *                          |
+|                        **                        |
+|                       **                         |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 87:
++--------------------------------------------------+
+|                                                  |
+|                         * *                      |
+|                        *  *                      |
+|              *        **          **             |
+|             * *     **   *        **             |
+| **          ** *      **     **                  |
+| **          ** **      *  *    *                 |
+|             ** *        * *                      |
+|             * *                                  |
+|              *         *                         |
+|                         *                        |
+|                       ***                        |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 88:
++--------------------------------------------------+
+|                                                  |
+|                          *                       |
+|                       ****                       |
+|              *       ****         **             |
+|             * *      *  *         **             |
+| **         *   **    ****     *                  |
+| **         *   **     ****    *                  |
+|            *   **        *                       |
+|             * *                                  |
+|              *                                   |
+|                       * *                        |
+|                        **                        |
+|                        *                         |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 89:
++--------------------------------------------------+
+|                                                  |
+|                        * *                       |
+|                      *   *                       |
+|              *       *            **             |
+|             ****    *    *        **             |
+| **         ** * *    *                           |
+| **        *** *  *   *   *                       |
+|            ** * *      * *                       |
+|             ****                                 |
+|              *                                   |
+|                         *                        |
+|                       * *                        |
+|                        **                        |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 90:
++--------------------------------------------------+
+|                                                  |
+|                         *                        |
+|                       * *                        |
+|             **      **            **             |
+|            *   *    **            **             |
+| **        *     *   **                           |
+| **        *   * **    * *                        |
+|           *     *       *                        |
+|            *   *                                 |
+|             **                                   |
+|                        *                         |
+|                         **                       |
+|                        **                        |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 91:
++--------------------------------------------------+
+|                                                  |
+|                        *                         |
+|                      * *                         |
+|             *       * *           **             |
+|            **      *  *           **             |
+| **        **    **  * *                          |
+| **       ***    **   * *                         |
+|           **    **     *                         |
+|            **                                    |
+|             *                                    |
+|                         *                        |
+|                          *                       |
+|                        ***                       |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 92:
++--------------------------------------------------+
+|                                                  |
+|                       *                          |
+|                      * *                         |
+|            **       * **          **             |
+|           * *      ** **          **             |
+| **       *      *** * **                         |
+| **       *  *  *  *  * *                         |
+|          *      **    *                          |
+|           * *                                    |
+|            **                                    |
+|                                                  |
+|                        * *                       |
+|                         **                       |
+|                         *                        |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 93:
++--------------------------------------------------+
+|                                                  |
+|                       *                          |
+|                      * *                         |
+|            **      **   *         **             |
+|           * *    ** *   *         **             |
+| **       ***    *** *   *                        |
+| **      ***    *  ** * *                         |
+|          ***    **    *                          |
+|           * *                                    |
+|            **                                    |
+|                                                  |
+|                          *                       |
+|                        * *                       |
+|                         **                       |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 94:
++--------------------------------------------------+
+|                                                  |
+|                       *                          |
+|                     ****                         |
+|            **     **** **         **             |
+|          *  *   *   ** ***        **             |
+| **      *       *   ** **                        |
+| **      *      *   *****                         |
+|         *       ***   *                          |
+|          *  *                                    |
+|            **                                    |
+|                                                  |
+|                         *                        |
+|                          **                      |
+|                         **                       |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 95:
++--------------------------------------------------+
+|                                                  |
+|                       **                         |
+|                         *                        |
+|            **            *        **             |
+|            **    *       *        **             |
+| **      **     **        *                       |
+| **     ***     *  **    *                        |
+|         **      ***** **                         |
+|            **    *                               |
+|            **                                    |
+|                                                  |
+|                          *                       |
+|                           *                      |
+|                         ***                      |
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 96:
++--------------------------------------------------+
+|                                                  |
+|                        *                         |
+|                        **                        |
+|            **           **        **             |
+|           ***   *       ***       **             |
+| **     * **    ****     **                       |
+| **     *  *    *    *  **                        |
+|        * **     *   *  *                         |
+|           ***   ** *                             |
+|            **                                    |
+|                                                  |
+|                                                  |
+|                         * *                      |
+|                          **                      |
+|                          *                       |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 97:
++--------------------------------------------------+
+|                                                  |
+|                        **                        |
+|                        * *                       |
+|           * *             *       **             |
+|          *  *  **      *  *       **             |
+| **      **     * *        *                      |
+| **    **   *   *   *   * *                       |
+|         **     *** **  **                        |
+|          *  *   **                               |
+|           * *                                    |
+|                                                  |
+|                                                  |
+|                           *                      |
+|                         * *                      |
+|                          **                      |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 98:
++--------------------------------------------------+
+|                                                  |
+|                        **                        |
+|                        * *                       |
+|            *            ***       **             |
+|         ****   **        ***      **             |
+| **     ****   **        ***                      |
+| **     *  *   ** * **  * *                       |
+|        ****    * * **  **                        |
+|         ****   * **                              |
+|            *                                     |
+|                                                  |
+|                                                  |
+|                          *                       |
+|                           **                     |
+|                          **                      |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 99:
++--------------------------------------------------+
+|                                                  |
+|                        **                        |
+|                        *  *                      |
+|          * *               *      **             |
+|        *   *  ***          *      **             |
+| **     *                   *                     |
+| **    *    *       **  *  *                      |
+|        *       * *  *  **                        |
+|        *   *     ***                             |
+|          * *                                     |
+|                                                  |
+|                                                  |
+|                           *                      |
+|                            *                     |
+|                          ***                     |
+|                                                  |
+|                                                  |
+|                                                  |
++--------------------------------------------------+
+[23;1H[KPress RETURN to continue[H[JGeneration 100:
++--------------------------------------------------+
+|                                                  |
+|                        **                        |
+|                        **                        |
+|           *    *          **      **             |
+|         * *    *          ***     **             |
+| **    **       *          **                     |
+| **    **           **  **                        |
+|       **        **  *  **                        |
+|         * *     ****                             |
+|           *       *                              |
+|                                                  |
+|                                                  |
+|                                                  |
+|                          * *                     |
+|                           **                     |
+|                           *                      |
+|                                                  |
+|                                                  |
 +--------------------------------------------------+

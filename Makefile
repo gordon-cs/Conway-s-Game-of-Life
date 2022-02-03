@@ -16,6 +16,12 @@ sample_test:
 	diff tests/project1.out tests/test1.out > sample.diff
 	wc -l sample.diff
 	
+# this test is the same as the one above but tranposed
+sample_test_transposed:
+	./project1 < tests/test2.in > tests/project1.out
+	diff tests/project1.out tests/test2.out > sample_transposed.diff
+	wc -l sample_transposed.diff
+	
 # test the code against an expected output file
 # this test should simulate a glider gun
 glider_test:
