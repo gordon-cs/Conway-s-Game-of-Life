@@ -6,8 +6,6 @@
 #include <iostream>
 #include "board.h"
 
-using namespace std;
-
 /**
  Get cell state function
  The function that retrieves the state of a cell object in the board array
@@ -17,7 +15,7 @@ using namespace std;
  col - the column in which the desired cell resides
 */
 
-Cell Board::getCellState(int row, int col){
+Cell Board::getCellState(int row, int col) {
   return _board[row][col];
 }
 
@@ -31,7 +29,7 @@ Cell Board::getCellState(int row, int col){
  state - the condition of a given cell. Either LIVING or NONE
 */
 
-void Board::setCellState(int row, int col, Cell state){
+void Board::setCellState(int row, int col, Cell state) {
   _board[row][col] = state;
 }
 
@@ -46,28 +44,28 @@ void Board::setCellState(int row, int col, Cell state){
   col - the col of the cell
  */
 
-int Board::countNeighbors(int row, int col){
+int Board::countNeighbors(int row, int col) {
   int count = 0;
-  //count all organisms of a 3x3 section surrounding the center cell
+  // count all organisms of a 3x3 section surrounding the center cell
   for (int rowOffset = -1; rowOffset < 2; rowOffset++) {
     for (int colOffset = -1; colOffset < 2; colOffset++) {
-      if(_board[row - rowOffset][col - colOffset] == Cell::LIVING){
+      if (_board[row - rowOffset][col - colOffset] == Cell::LIVING) {
         count++;
       }
     }
   }
   
   //if the center cell is alive then subtract it from the count
-  if(_board[row][col] == Cell::LIVING){
+  if (_board[row][col] == Cell::LIVING) {
     count--;
   }
   return count;
 }
 
-unsigned short const Board::getHeight(){
+short const Board::getHeight() {
   return height;
 }
 
-unsigned short const Board::getWidth(){
+short const Board::getWidth() {
   return width;
 }
