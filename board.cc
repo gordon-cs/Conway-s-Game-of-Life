@@ -38,7 +38,8 @@ void Board::setCellState(int row, int col, Cell state){
 /**
   Prerequisite: cell is alive (otherwise count is off by one)
   Count neighbors function
-  Function that counts which of the cells surrounding a given cell in a 9x9 portion of the board is occupied by organisms and returns that count
+  Function that counts which of the cells surrounding a given cell in a 9x9
+  portion of the board is occupied by organisms and returns that count
  
   Parameters:
   row - the row of the cell

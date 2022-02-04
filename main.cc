@@ -20,9 +20,11 @@ static const bool frameByFrame = true;
  
  Parameters:
  Board board- a two dimensional array of cell objects
+ bool promptReturn- are we asking the user to press return for the next print,
+                    or is this the very last board print?
 */
 
-void printBoard(Board board) {
+void printBoard(Board board, bool promptReturn) {
   //top border
   cout << '+';
   for (unsigned short i = 1; i < board.getWidth()-1; i++) {
@@ -49,12 +51,14 @@ void printBoard(Board board) {
     cout << '-';
   }
   cout << "+\n";
-    
-  //This code block allows the animation to be shown frame by frame
-  //pressing the return key shows the next frame
-  if (frameByFrame) {
-    cout << ESC << "[23;1H" << ESC << "[K" << "Press RETURN to continue";
-    while (cin.get() != '\n') { };
+  if (promptReturn) {
+
+    //This code block allows the animation to be shown frame by frame
+    //pressing the return key shows the next frame
+    if (frameByFrame) {
+      cout << ESC << "[23;1H" << ESC << "[K" << "Press RETURN to continue";
+      while (cin.get() != '\n') { };
+    }
   }
 }
 
@@ -104,7 +108,7 @@ int main() {
   // Retrieve the locations of the organisms
   cout << "Locations? ";
   
-  // Iterate through all the passed ints and set that location to living
+  // Iterate through all the passed ints and set that location to livingddddddd
   for (unsigned short i = 0; i < numOfOrganisms; i++) {
     cin >> row >> col;
     board.setCellState(row, col, Cell::LIVING);
@@ -119,12 +123,17 @@ int main() {
   
   // The initial board
   cout << ESC << "[H" << ESC << "[J" << "Initial:" << endl;
-  printBoard(board);
+  printBoard(board, true);
+  
   
   // For loop to run generateBoard() the number of times the user desires
-  for (unsigned short i = 1; i <= numOfGenerations; i++) {
+  for (unsigned short i = 1; i < numOfGenerations; i++) {
     cout << ESC << "[H" << ESC << "[J" << "Generation " << i << ":" << endl;
     board = updatedBoard(board);
-    printBoard(board);
+    printBoard(board, true);
   }
+  cout << ESC << "[H" << ESC << "[J" << "Generation " << numOfGenerations << ":"
+       << endl;
+  board = updatedBoard(board);
+  printBoard(board, false);
 }
