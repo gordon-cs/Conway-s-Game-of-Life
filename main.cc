@@ -25,16 +25,16 @@ static const bool frameByFrame = true;
 void printBoard(Board board) {
   //top border
   cout << '+';
-  for (unsigned short i = 0; i < board.getWidth(); i++) {
+  for (unsigned short i = 1; i < board.getWidth()-1; i++) {
     cout << '-';
   }
   cout << "+\n";
     
   // left/right borders and organisms
-  for (unsigned short row = 0; row < board.getHeight(); row++) {
+  for (unsigned short row = 1; row < board.getHeight() - 1; row++) {
     cout << "|";
-    for (unsigned short col = 0; col < board.getWidth(); col++) {
-      if (board.getCellState(row + 1, col + 1) == Cell::LIVING) {
+    for (unsigned short col = 1; col < board.getWidth() - 1; col++) {
+      if (board.getCellState(row, col) == Cell::LIVING) {
         cout << '*';
       } else {
         cout << ' ';
@@ -45,7 +45,7 @@ void printBoard(Board board) {
     
   //bottom border
   cout << '+';
-  for (unsigned short i = 0; i < board.getWidth(); i++) {
+  for (unsigned short i = 1; i < board.getWidth()-1; i++) {
     cout << '-';
   }
   cout << "+\n";
@@ -64,8 +64,8 @@ void printBoard(Board board) {
 Board updatedBoard(Board board) {
   static Board newBoard;
   
-  for(int row = 0; row < board.getHeight(); row++){
-    for(int col = 0; col < board.getWidth(); col++){
+  for(int row = 1; row < board.getHeight() - 1; row++){
+    for(int col = 1; col < board.getWidth() - 1; col++){
       int count = board.countNeighbors(row, col);
       //cerr << "Cell "<< row << ", " << col << " has " << count << " neigbors." << endl;
       if (count == 2 && board.getCellState(row, col) == Cell::LIVING || count == 3) {
@@ -114,7 +114,7 @@ int main() {
   
   // For loop to run generateBoard() the number of times the user desires
   for (unsigned short i = 1; i <= numOfGenerations; i++) {
-    cout << ESC << "[H" << "Generation: " << i << endl;
+    cout << ESC << "[H" << ESC << "[J" << "Generation " << i << ":" << endl;
     board = updatedBoard(board);
     printBoard(board);
   }

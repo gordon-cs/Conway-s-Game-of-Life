@@ -17,7 +17,7 @@ using namespace std;
  col - the column in which the desired cell resides
 */
 
-Cell Board::getCellState(unsigned short row, unsigned short col){
+Cell Board::getCellState(int row, int col){
   return _board[row][col];
 }
 
@@ -31,7 +31,7 @@ Cell Board::getCellState(unsigned short row, unsigned short col){
  state - the condition of a given cell. Either LIVING or NONE
 */
 
-void Board::setCellState(unsigned short row, unsigned short col, Cell state){
+void Board::setCellState(int row, int col, Cell state){
   _board[row][col] = state;
 }
 

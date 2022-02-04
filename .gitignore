@@ -32,8 +32,12 @@
 *.exe
 *.app
 
-# Files Jake doesn't want added
+# The project1 executable
 project1
+
+# Files returned by tests
+*.diff
+tests/project1.out
 
 # Mac setup files
 *.DS_Store

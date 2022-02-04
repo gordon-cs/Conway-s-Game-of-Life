@@ -14,8 +14,8 @@ class Board { // TODO: make this entire class static
   public:
     // cell state methods
     Board(){};
-    Cell getCellState(unsigned short row, unsigned short col);
-    void setCellState(unsigned short row, unsigned short col, Cell state);
+    Cell getCellState(int row, int col);
+    void setCellState(int row, int col, Cell state);
     
     // board methods
     unsigned const short getHeight();
@@ -23,8 +23,8 @@ class Board { // TODO: make this entire class static
     int countNeighbors(int row, int col);
   private:
     // the fixed dimensions of all board objects
-    static unsigned const short height = 18;
-    static unsigned const short width = 50;
+    static unsigned const short height = 20;
+    static unsigned const short width = 52;
     
     // the board object
     Cell _board[height][width];
