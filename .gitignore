@@ -37,7 +37,7 @@ project1
 
 # Files returned by tests
 *.diff
-tests/project1.out
+project1.out
 
 # Mac setup files
 *.DS_Store
