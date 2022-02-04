@@ -7,21 +7,19 @@
 
 using std::cin;
 using std::cout;
-using std::cerr;
 using std::endl;
 
 static const char ESC = 27;
 static const bool frameByFrame = true;
 
-/**
- Print Board function
- The function that builds a frame and prints a 2D array passed to it
- 
- Parameters:
- Board board- a two dimensional array of cell objects
- bool promptReturn- are we asking the user to press return for the next print,
-                    or is this the very last board print?
-*/
+// Print Board function
+// The function that builds a frame and prints a 2D array passed to it
+//
+// Parameters:
+// Board board - a two dimensional array of cell objects
+// bool promptReturn - a bool passed to remove
+// the 'Press RETURN to continue' text from the print
+
 
 void printBoard(Board board, bool promptReturn) {
   // top border
@@ -61,20 +59,16 @@ void printBoard(Board board, bool promptReturn) {
   }
 }
 
-/**
- Update board function
- This function creates a new board to be printed for the next generation based
- on the following rules:
- 
- 1. Any live cell with two or three live neighbours survives.
- 2. Any dead cell with three live neighbours becomes a live cell.
- 3. All other live cells die in the next generation. Similarly, all other dead
- cells stay dead.
- 
- Parameters:
- Board board- a two dimensional array of cell objects containing the previous
- generation
-*/
+
+// Update board function
+// This function creates a new board to be printed for the next generation based
+// on the following rules:
+//
+// 1. Any live cell with two or three live neighbours survives.
+// 2. Any dead cell with three live neighbours becomes a live cell.
+// 3. All other live cells die in the next generation. Similarly, all other dead cells stay dead.
+// Parameters:
+// Board board - the previous generation
 
 Board updatedBoard(Board board) {
   static Board newBoard;
@@ -93,12 +87,6 @@ Board updatedBoard(Board board) {
   }
   return newBoard;
 }
-
-/**
-  Main function
- 
-  The function that executes the main program
- */
 
 int main() {
   short numOfOrganisms, numOfGenerations, row, col;

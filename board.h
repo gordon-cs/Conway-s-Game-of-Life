@@ -6,27 +6,28 @@
 #ifndef BOARD_H_
 #define BOARD_H_
 
-// TODO
 enum class Cell { NONE, LIVING };
 
 class Board {
  public:
-  // cell state methods
   Board() { };
+  
+  // Get the cell state of any x, y point on the board
   Cell getCellState(int row, int col);
+  
+  // Set the cell state of any x, y point on the board
   void setCellState(int row, int col, Cell state);
   
-  // board methods
+  // Count the neighbors of any x, y point on the board
+  int countNeighbors(int row, int col);
+  
   static const short getHeight();
   static const short getWidth();
-  int countNeighbors(int row, int col);
+  
  private:
-
-  // the fixed dimensions of all board objects
   static const short height = 20;
   static const short width = 52;
   
-  // the board object
   Cell _board[height][width];
 }; 
 
