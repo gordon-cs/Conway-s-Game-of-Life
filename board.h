@@ -10,7 +10,7 @@ using std::string;
 
 enum class Cell { NONE, LIVING };
 
-class Board { // TODO: make this entire class static
+class Board {
   public:
     // cell state methods
     Board(){};

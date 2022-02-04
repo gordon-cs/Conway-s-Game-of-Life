@@ -59,8 +59,17 @@ void printBoard(Board board) {
 }
 
 /**
-  TODO: description
- */
+ Update board function
+ This function creates a new board to be printed for the next generation based on the following rules:
+ 
+ 1. Any live cell with two or three live neighbours survives.
+ 2. Any dead cell with three live neighbours becomes a live cell.
+ 3. All other live cells die in the next generation. Similarly, all other dead cells stay dead.
+ 
+ Parameters:
+ Board board- a two dimensional array of cell objects containing the previous generation
+*/
+
 Board updatedBoard(Board board) {
   static Board newBoard;
   
