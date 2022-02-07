@@ -12,7 +12,7 @@ class Board {
  public:
   Board() { };
   
-  // Get the cell state of any x, y point on the board
+ 
   Cell getCellState(int row, int col);
   
   // Set the cell state of any x, y point on the board
