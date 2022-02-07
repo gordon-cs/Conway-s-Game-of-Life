@@ -71,21 +71,7 @@ void printBoard(Board board, bool promptReturn) {
 // Board board - the previous generation
 
 Board updatedBoard(Board board) {
-  static Board newBoard;
-  
-  for (int row = 1; row < board.getHeight() - 1; row++) {
-    for (int col = 1; col < board.getWidth() - 1; col++) {
-      int count = board.countNeighbors(row, col);
-      if (count == 2 &&
-          board.getCellState(row, col) == Cell::LIVING
-          || count == 3) {
-        newBoard.setCellState(row, col, Cell::LIVING);
-      } else {
-        newBoard.setCellState(row, col, Cell::NONE);
-      }
-    }
-  }
-  return newBoard;
+
 }
 
 int main() {
