@@ -20,6 +20,10 @@ static const bool frameByFrame = true;
 // bool promptReturn - a bool passed to remove
 // the 'Press RETURN to continue' text from the print
 
+//RT The print and update functions belong inside a game class.
+// That could be the board class, or a separate game class that
+// uses the board.
+
 
 void printBoard(Board board, bool promptReturn) {
   // top border
@@ -28,7 +32,7 @@ void printBoard(Board board, bool promptReturn) {
     cout << '-';
   }
   cout << "+\n";
-    
+
   // left/right borders and organisms
   for (short row = 1; row < board.getHeight() - 1; row++) {
     cout << "|";
@@ -37,11 +41,11 @@ void printBoard(Board board, bool promptReturn) {
         cout << '*';
       } else {
         cout << ' ';
-      } 
-    } 
+      }
+    }
     cout << "|\n";
   }
-    
+
   // bottom border
   cout << '+';
   for (short i = 1; i < board.getWidth()-1; i++) {
@@ -70,9 +74,18 @@ void printBoard(Board board, bool promptReturn) {
 // Parameters:
 // Board board - the previous generation
 
+//RT Must document return value, especially when it is 'static'.
+// That's an unusual and complicated choice, and the user of your
+// code needs to be alerted to the fact it will always return (a
+// shallow copy of) the same thing (presumably with different values).
+// I wonder if you fully understand it yourselves.  It's not a choice
+// I would recommend.
+//
+// All this would be avoided by making updateBoard a method of Board.
+
 Board updatedBoard(Board board) {
   static Board newBoard;
-  
+
   for (int row = 1; row < board.getHeight() - 1; row++) {
     for (int col = 1; col < board.getWidth() - 1; col++) {
       int count = board.countNeighbors(row, col);
@@ -91,32 +104,32 @@ Board updatedBoard(Board board) {
 int main() {
   short numOfOrganisms, numOfGenerations, row, col;
   static Board board;
-  
+
   // Retrieve number of organisms
   cout << "How many organisms initially? ";
   cin >> numOfOrganisms;
-  
+
   // Retrieve the locations of the organisms
   cout << "Locations? ";
-  
+
   // Iterate through all the passed ints and set that location to living
   for (short i = 0; i < numOfOrganisms; i++) {
     cin >> row >> col;
     board.setCellState(row, col, Cell::LIVING);
   }
-  
+
   // Retrieve the number of generations to cycle through
   cout << "Generations? ";
   cin >> numOfGenerations;
-  
+
   // Enter key pressed by user advances to next question
   while (cin.get() != '\n') { }
-  
+
   // The initial board
   cout << ESC << "[H" << ESC << "[J" << "Initial:" << endl;
   printBoard(board, true);
-  
-  
+
+
   // For loop to run generateBoard() the number of times the user desires
   for (short i = 1; i < numOfGenerations; i++) {
     cout << ESC << "[H" << ESC << "[J" << "Generation " << i << ":" << endl;
